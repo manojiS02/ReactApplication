@@ -1,42 +1,53 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#homePic{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/image/home/homePic7.jpg");
+  height: 900px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Optional: centers the image */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#bgPic{
+  background-image: url("../src/image/Group 34.png");
+  height: 350px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#CustomerSaysPic{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.856)), url("../src/image/home/homePic4.jpg");
+  height: 750px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Optional: centers the image */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+#AboutHomePic{
+  background-image: url("../src/image/aboutPagePic6.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Optional: centers the image */
 }
 
-.card {
-  padding: 2em;
+
+#MenuhomePic{
+  background-image: url("../src/image/Group68.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Optional: centers the image */
 }
 
-.read-the-docs {
-  color: #888;
+#BlogHomePic{
+  background-image: url("../src/image/Group 66.png");
+  height: 580px;
+}
+
+#Contactpic{
+  background-image: url("../src/image/contact4.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Optional: centers the image */
 }
